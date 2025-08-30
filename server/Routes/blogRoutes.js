@@ -1,7 +1,8 @@
 import express from 'express'
-import { addBlog } from '../controllers/blogController';
-import upload from '../../middleware/multer';
-import auth from '../../middleware/auth';
+import { addBlog } from '../controllers/blogController.js';
+
+import auth from '../middleware/auth.js';
+import upload from '../middleware/multer.js';
 
 const BlogRoute = express.Router();
 
