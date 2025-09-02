@@ -5,5 +5,3 @@ var imagekit = new ImageKit({
     privateKey :  process.env.IMAGEKIT_PRIVATE_KEY,
     urlEndpoint :  process.env.IMAGEKIT_URL_ENDPOINT
 });
-
-export default imagekit;
